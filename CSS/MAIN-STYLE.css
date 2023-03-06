@@ -1,0 +1,94 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Grenze&family=M+PLUS+Rounded+1c&family=Qwitcher+Grypen&display=swap');
+/* CSS Document */
+body{
+font-family: 'M PLUS Rounded 1c', sans-serif;
+color: #107152; font-size: 16px; margin: 0
+}
+h1,h2,h3{font-family: 'Grenze', serif;
+ color:#107152}
+h2{ font-size: 2vw}
+h3{ font-size: 18px; color: #107152}
+a{ color: #107152; text-decoration: none}
+a:hover{ color: #972D2F}
+.fontphu
+
+section,footer
+{ 
+	display: block;
+	padding: 40px 0
+}
+
+#hero
+{ min-height: 400px;
+	background-image: url( "../IMAGES/DSC04322[1].jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:top ;
+	color: #13A674; width: auto;
+}
+
+#mySkill .item{ padding: 30px}
+#testimonial .item img{ 
+	width: 100px; height: 100px; border-radius: 50%; 
+	display: block; margin: auto; 
+	box-shadow: 0 0 5px #ddd
+}
+#testimonial .item{ text-align: center; padding: 50px 100px}
+
+footer{ background: #CA7F7F; color: #107152}
+section{ min-height: 200px}
+.noidung{ min-height: 100px; width: 100%; /*background: lightblue*/}
+
+/*.pro-title{ margin: 0; padding: 0}*/
+.pro-title h4, .pro-title p{ margin: 0; padding: 2px 5px; color:  #107152}
+.progress-bar1{
+	width: 100%; height: 12px;
+	background: #FF676A;
+	border-radius: 10px;
+	overflow: hidden
+}
+.progress1{
+	height:100%; 
+	background-color: #107152;
+	border-radius: 10px 0 0 10px
+}
+.icon span{font-size: 4rem}
+.noidung-card{
+	padding: 30px 10px ;
+	border-radius: 10px;
+	transition: all 0.5s;
+	background: #BCFBED
+}
+.noidung-card:hover{ 
+background:#CA7F7F; color:#107152;
+border-radius: 30px;
+box-shadow: 0 0 10px #333
+}
+.khung
+{
+	width: 600px; 
+	height: 600px;
+	border: 8px dotted rgba(245,89,91,0.41);
+	position: absolute;
+	left:50%;
+	top:0%;
+	z-index: 1;
+	animation-name: haoquang;
+	animation-duration: 10s;
+	animation-iteration-count: infinite
+}
+@keyframes haoquang
+{
+	0%{ transform: scale(0) rotate(0); opacity: 0}
+	50%{ transform: scale(100%) rotate(360deg); opacity: 0.2; border-color: rgba(238,95,98,0.83)}
+	100%{ transform: scale(0) rotate(0); opacity: 0}}
+
+.bg-glass {
+	background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+	padding: 25px; }

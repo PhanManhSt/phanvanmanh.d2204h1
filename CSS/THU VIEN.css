@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+/*He thong mau chinh Xanh*/
+.bg-primary1 { background-color:#BCFBED} /* mau nen*/
+.text-primary1 { color: #107152} /* mau text */
+.btn-primary1 /* mau nut chinh*/
+{
+	background-color: #0E725A;
+	color: #fff;
+	border: none;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 50px;
+	cursor: pointer
+}
+.btn-primary1:hover{
+	background-color:#00C893
+}
+/* He thong mau phu Do */
+.bg-secondary1 {
+	
+	background-color:#CA7F7F}
+.text-secondary1 { color: #972D2F}
+.btn-secondary1
+{
+	background-color:#FF676A;
+	color: #fff;
+	border: none;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 50px
+}
+.btn-secondary1:hover{
+	background-color: #FAAEAF
+}
+.btn-outline-primary1 /* mau nut chinh trong suot*/
+{
+	background-color: transparent;
+	border: 1px solid #0E725A;
+	color: #0E725A;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 50px;
+	cursor: pointer;
+	margin-left: 10px
+}
+.btn-outline-primary1:hover{
+	background-color:#00C893
+}
+.bg-dark-501{ background-color: rgba(20,33,39,.5)}
+
+[class*="col-"] {
+  padding: 15px;
+	position:relative
+}
+
+.img-center{display: block; margin: auto }
+.d-block{ display: block}
+.round-5{ border-radius: 5px}
+.round-10{ border-radius: 10px}
+.round-circle{ border-radius: 50%}
+*{scroll-behavior: smooth}
